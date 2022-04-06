@@ -1,0 +1,120 @@
+.header{
+  padding: 8px;
+  
+  
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+li{
+  float: left;
+  padding-left: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#header-right{
+  float: right;
+  padding-right: 4px;
+  padding-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  
+}
+
+#header-left{
+  float: left;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.header #header-right #profile img {
+  border-radius: 16px;
+}
+
+.logo{
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 38px;
+  justify-content: center;
+}
+
+.search{
+  margin:0 auto;
+  width:550px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.searchbar{
+  height:45px;
+  border:none;
+  width:480px;
+  font-size:16px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.voice{
+  position:relative;
+  top:8px;
+  left: 10px;
+}
+
+.search-icon{
+  position: relative;
+  align-items: center;
+  left: 16px;
+  top: 1px;
+}
+
+.buttons{
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+}
+.button{
+  background-color: #f2f2f2;
+  border:1px solid #f2f2f2  ;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#5f6368;
+  font-size:14px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+  height: 36px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+
+
+.footer{
+  background-color: #f2f2f2 ;
+  position:fixed;
+  bottom: 10px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px ;
+} 
+
+.rightside{
+  float: right;
+  margin-right: 20px;
+}
+
+.leftside{
+  float: left;
+}
